@@ -16,26 +16,21 @@ body {
   margin: auto;
   text-align: center;
   padding: 40px 0;
-  display: flex;
 }
 h2 {
   font-size: 28px;
   margin-bottom: 20px;
 }
 .projects {
-  display: flex;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 590px);
+  grid-template-rows: repeat(2, 756px);
+  column-gap: 30px;
+  row-gap: 60px;
   justify-content: center;
-  width: 1200px;
+  justify-items: center;
 }
-.project-item {
-  background: #fff;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: calc(50% - 20px);
-  max-width: 500px;
-}
+
 .project-item:hover {
   transform: translateY(-5px);
 }
@@ -52,18 +47,32 @@ h2 {
   background: #e0d7cd;
   padding: 30px;
   border-radius: 10px;
-  color: #6d4c41;
+  color: #cda274;
   background-color: #6d4c41;
 }
-.stat-item {
+.stat-item1 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 128px;
   text-align: center;
-  min-width: 120px;
+  letter-spacing: 1.7px;
+
+  color: #cda274;
 }
-.stat-item {
+.stat-item2 {
   margin: 0;
   font-size: 32px;
 }
 .stat-item p {
   font-size: 14px;
   color: #555;
+}
+
+ul {
+  list-style: none;
+}
+
+.img1 {
 }
