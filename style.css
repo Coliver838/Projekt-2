@@ -65,7 +65,6 @@ h2 {
   font-size: 32px;
 }
 .stat-item p {
-  font-size: 14px;
   color: #555;
 }
 
@@ -87,4 +86,51 @@ ul {
   border-right: 1px solid #cda274;
   margin-right: 1px;
   padding-right: 50px;
+}
+.p4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.22px;
+
+  color: #4d5053;
+  width: 786;
+  margin-bottom: 190px;
+}
+
+.h2 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 128px;
+  text-align: center;
+  letter-spacing: 1.7px;
+
+  color: #cda274;
+}
+
+.p3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.22px;
+
+  color: #4d5053;
+}
+
+.p1 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.22px;
+  color: #292f36;
 }
